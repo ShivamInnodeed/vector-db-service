@@ -1,0 +1,16 @@
+# Elasticsearch client (Elasticsearch 9.2.1 for hybrid search support)
+elasticsearch>=9.2.1,<10.0.0
+
+# OpenTelemetry for observability
+opentelemetry-api>=1.20.0
+opentelemetry-sdk>=1.20.0
+opentelemetry-exporter-otlp-proto-grpc>=1.20.0
+
+# Optional: for HTTP service wrapper (if needed)
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+
+# Testing (optional, for development)
+# pytest>=7.4.0
+# pytest-mock>=3.11.0
+# testcontainers>=3.7.0

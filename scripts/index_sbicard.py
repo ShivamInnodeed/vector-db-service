@@ -19,8 +19,8 @@ from vector_db import VectorDBClient
 from vector_db.models import Document
 from scripts.parse_sbicard_md import parse_sbicard_md
 
-# Default path to sbicard markdown (relative to repo root or cwd)
-DEFAULT_MD_PATH = ROOT.parent / "Architecture Diagram" / "sbicard_homepage.md"
+# Prefer repo data folder; fallback to Architecture Diagram outside repo
+DEFAULT_MD_PATH = ROOT / "data" / "sbicard_homepage.md"
 VECTOR_DIM = 384
 INDEX_NAME = "sbicard_chunks"
 
@@ -38,14 +38,14 @@ def main():
         md_path = sys.argv[1]
     md_path = Path(md_path)
     if not md_path.is_absolute() and not md_path.exists():
-        # Try relative to parent of project root (e.g. py/Architecture Diagram/...)
-        alt = ROOT.parent / md_path
+        # Fallback: legacy path outside repo
+        alt = ROOT.parent / "Architecture Diagram" / "sbicard_homepage.md"
         if alt.exists():
             md_path = alt
     if not md_path.exists():
         print(f"Error: file not found: {md_path}")
         print("Usage: python scripts/index_sbicard.py [path_to_sbicard_homepage.md]")
-        print("Default (no arg): ../Architecture Diagram/sbicard_homepage.md")
+        print("Default: data/sbicard_homepage.md or Architecture Diagram/sbicard_homepage.md")
         sys.exit(1)
     print(f"Parsing {md_path} ...")
     chunks = list(parse_sbicard_md(md_path))

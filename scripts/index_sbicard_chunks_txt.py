@@ -20,7 +20,8 @@ from vector_db import VectorDBClient
 from vector_db.models import Document
 from scripts.parse_sbicard_chunks_txt import parse_sbicard_chunks_txt
 
-DEFAULT_CHUNKS_PATH = ROOT.parent / "Architecture Diagram" / "sbicard_chunks.txt"
+# Prefer repo-internal data folder (so Git/server has the file); fallback to outside folder
+DEFAULT_CHUNKS_PATH = ROOT / "data" / "sbicard_chunks.txt"
 VECTOR_DIM = 384
 INDEX_NAME = "sbicard_chunks"
 
@@ -44,7 +45,8 @@ def main():
         chunks_path = sys.argv[1]
     chunks_path = Path(chunks_path)
     if not chunks_path.is_absolute() and not chunks_path.exists():
-        alt = ROOT.parent / chunks_path
+        # Fallback: legacy path outside repo (e.g. Architecture Diagram/sbicard_chunks.txt)
+        alt = ROOT.parent / "Architecture Diagram" / "sbicard_chunks.txt"
         if alt.exists():
             chunks_path = alt
     if not chunks_path.exists():

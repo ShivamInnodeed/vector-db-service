@@ -1,0 +1,162 @@
+{
+  "card_id": "yatra-sbi-card",
+  "card_name": "Yatra SBI Card",
+  "category": "travel",
+  "network": "mastercard",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/travel/yatra-sbi-card.page",
+  "status": "discontinued",
+  "fees": {
+    "joining_fee": 499,
+    "renewal_fee": 499,
+    "addon_card_fee": 0,
+    "fee_waiver": {
+      "spend_threshold": 100000,
+      "type": "spend_based"
+    }
+  },
+  "reward_structure": {
+    "redemption_rates": {
+      "default": 0.25
+    },
+    "category_earnings": {
+      "dining": {
+        "points_per_100": 6
+      },
+      "grocery": {
+        "points_per_100": 6
+      },
+      "international": {
+        "points_per_100": 6
+      },
+      "default": {
+        "points_per_100": 1
+      }
+    },
+    "partner_earnings": {},
+    "special_earnings": {},
+    "reward_caps": {
+      "monthly_points_cap": 5000,
+      "after_cap_earning": {
+        "points_per_100": 1
+      }
+    },
+    "exclusions": [],
+    "redemption": {
+      "minimum_points": 1000,
+      "multiples_of": null,
+      "instant_redemption_partners": []
+    }
+  },
+  "cashback": {
+    "general": {
+      "percentage": null,
+      "monthly_cap": null,
+      "exclusions": []
+    },
+    "category_specific": {}
+  },
+  "welcome_benefits": {
+    "bonus_points": null,
+    "gift_voucher": null,
+    "other": "Yatra.com vouchers worth Rs. 8,250",
+    "conditions": "on payment of 1st year annual fee",
+    "validity": null
+  },
+  "milestones": [],
+  "renewal_benefits": {
+    "bonus_points": 0,
+    "conditions": null
+  },
+  "fuel_benefits": {
+    "surcharge_waiver": {
+      "percentage": 1,
+      "min_transaction": 500,
+      "max_transaction": 3000,
+      "monthly_cap": 100,
+      "billing_cycle_cap": null
+    }
+  },
+  "lounge_access": {
+    "domestic": {
+      "complimentary_visits_per_year": 0,
+      "complimentary_visits_per_quarter": null,
+      "milestone_based_additional_visits": null,
+      "program": null,
+      "guest_allowed": false
+    },
+    "international": {
+      "complimentary_visits_per_year": 0,
+      "complimentary_visits_per_quarter": null,
+      "usage_fee_after_limit": null,
+      "program": null
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": null
+    }
+  },
+  "insurance": {
+    "fraud_liability": 0,
+    "air_accident": 500000,
+    "overseas_accident": 0,
+    "rail_accident": 0,
+    "purchase_protection": 0,
+    "lost_baggage": 0,
+    "delay_of_baggage": 0,
+    "loss_of_documents": 0,
+    "baggage_damage": 0,
+    "flight_cancellation": {
+      "max_claims_per_year": null,
+      "max_claim_amount": null
+    }
+  },
+  "other_benefits": {
+    "forex_markup_percentage": null,
+    "concierge_service": false,
+    "golf_program": false,
+    "buy_one_get_one": {
+      "dining": false,
+      "movies": false
+    },
+    "complimentary_memberships": {}
+  },
+  "benefit_changes": [
+    {
+      "effective_date": "2019-04-01",
+      "change_type": "discontinued",
+      "description": "Access to Master Card Airport Lounges will no longer be applicable"
+    },
+    {
+      "effective_date": "2025-03-28",
+      "change_type": "discontinued",
+      "description": "Issuance of Yatra SBI Credit Card has been discontinued"
+    },
+    {
+      "effective_date": "2025-05-01",
+      "change_type": "discontinued",
+      "description": "Welcome gift has been discontinued"
+    },
+    {
+      "effective_date": "2025-05-01",
+      "change_type": "discontinued",
+      "description": "Travel benefits have been discontinued"
+    },
+    {
+      "effective_date": "2025-07-26",
+      "change_type": "discontinued",
+      "description": "Complimentary Air Accident insurance coverage has been discontinued"
+    }
+  ],
+  "promotional_offers": [],
+  "category_tags": [
+    "dining",
+    "grocery",
+    "international"
+  ],
+  "partner_category_tags": [],
+  "user_intents": [
+    "category_rewards",
+    "insurance_coverage",
+    "feature_question"
+  ]
+}

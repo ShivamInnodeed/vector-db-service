@@ -1,0 +1,192 @@
+{
+  "card_id": "paytm-sbi-card-select",
+  "card_name": "Paytm SBI Card SELECT",
+  "category": "travel",
+  "network": "visa",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/travel/paytm-sbi-card-select.page",
+  "status": "active",
+  "fees": {
+    "joining_fee": 1499,
+    "renewal_fee": 1499,
+    "addon_card_fee": 0,
+    "fee_waiver": {
+      "spend_threshold": 200000,
+      "type": "spend_based"
+    }
+  },
+  "reward_structure": {
+    "redemption_rates": {
+      "default": 1.0
+    },
+    "category_earnings": {
+      "default": {
+        "points_per_100": 1
+      }
+    },
+    "partner_earnings": {
+      "paytm": {
+        "type": "cashback",
+        "percentage": 1,
+        "points_per_100": 1,
+        "points_equivalent": null,
+        "monthly_cap_points": null,
+        "merchant": "paytm"
+      }
+    },
+    "special_earnings": {
+      "birthday": {
+        "points_per_100": null,
+        "annual_cap_points": null,
+        "validity_days": null
+      },
+      "standing_instructions": {
+        "category": null,
+        "points_per_100": null,
+        "monthly_cap_points": null
+      }
+    },
+    "reward_caps": {
+      "monthly_points_cap": null,
+      "after_cap_earning": {
+        "points_per_100": null
+      }
+    },
+    "exclusions": [
+      "fuel",
+      "wallet_load",
+      "government_transactions",
+      "rent_payments",
+      "emi_transactions",
+      "insurance_premium"
+    ],
+    "redemption": {
+      "minimum_points": null,
+      "multiples_of": null,
+      "instant_redemption_partners": []
+    }
+  },
+  "cashback": {
+    "general": {
+      "percentage": null,
+      "monthly_cap": null,
+      "exclusions": []
+    },
+    "category_specific": {
+      "paytm_travel": {
+        "percentage": 5,
+        "monthly_cap": null,
+        "notes": null
+      },
+      "paytm_other": {
+        "percentage": 2,
+        "monthly_cap": null,
+        "notes": null
+      },
+      "other": {
+        "percentage": 1,
+        "monthly_cap": null,
+        "notes": null
+      }
+    }
+  },
+  "welcome_benefits": {
+    "bonus_points": 750,
+    "gift_voucher": null,
+    "other": "Complimentary Paytm First Membership",
+    "conditions": "Post first settled retail transaction on cardholder account",
+    "validity": null
+  },
+  "milestones": [
+    {
+      "spend_threshold": 400000,
+      "bonus_points": null,
+      "category": "all",
+      "frequency": "annual",
+      "exclusions": null
+    },
+    {
+      "spend_threshold": 600000,
+      "bonus_points": null,
+      "category": "all",
+      "frequency": "annual",
+      "exclusions": null
+    }
+  ],
+  "renewal_benefits": {
+    "bonus_points": 0,
+    "conditions": null
+  },
+  "fuel_benefits": {
+    "surcharge_waiver": {
+      "percentage": 1,
+      "min_transaction": 500,
+      "max_transaction": 4000,
+      "monthly_cap": 250,
+      "billing_cycle_cap": null
+    }
+  },
+  "lounge_access": {
+    "domestic": {
+      "complimentary_visits_per_year": 4,
+      "complimentary_visits_per_quarter": 1,
+      "milestone_based_additional_visits": null,
+      "program": null,
+      "guest_allowed": null
+    },
+    "international": {
+      "complimentary_visits_per_year": 0,
+      "complimentary_visits_per_quarter": null,
+      "usage_fee_after_limit": null,
+      "program": "Priority Pass"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": null
+    }
+  },
+  "insurance": {
+    "fraud_liability": 200000,
+    "air_accident": 0,
+    "overseas_accident": 0,
+    "rail_accident": 0,
+    "purchase_protection": 0,
+    "lost_baggage": 0,
+    "delay_of_baggage": 0,
+    "loss_of_documents": 0,
+    "baggage_damage": 0,
+    "flight_cancellation": {
+      "max_claims_per_year": null,
+      "max_claim_amount": null
+    }
+  },
+  "other_benefits": {
+    "forex_markup_percentage": null,
+    "concierge_service": null,
+    "golf_program": null,
+    "buy_one_get_one": {
+      "dining": null,
+      "movies": null
+    },
+    "complimentary_memberships": {}
+  },
+  "benefit_changes": [
+    {
+      "effective_date": "2024-07-01",
+      "change_type": "modification",
+      "description": "Cashback replaced with Reward points of equivalent value"
+    }
+  ],
+  "promotional_offers": [],
+  "category_tags": [
+    "travel",
+    "general"
+  ],
+  "partner_category_tags": [
+    "utility"
+  ],
+  "user_intents": [
+    "lounge_access",
+    "feature_question",
+    "cashback_focused"
+  ]
+}

@@ -1,6 +1,10 @@
 # Elasticsearch client (Elasticsearch 9.2.1 for hybrid search support)
 elasticsearch>=9.2.1,<10.0.0
 
+# Optional: real semantic embeddings for KNN (recommended for good semantic search)
+# Without this, indexing/search use placeholder vectors and KNN accuracy is poor.
+sentence-transformers>=2.2.0
+
 # OpenTelemetry for observability
 opentelemetry-api>=1.20.0
 opentelemetry-sdk>=1.20.0

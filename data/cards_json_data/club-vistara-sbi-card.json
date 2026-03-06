@@ -1,0 +1,171 @@
+{
+  "card_id": "club-vistara-sbi-card",
+  "card_name": "Club Vistara SBI Card",
+  "category": "travel",
+  "network": "visa",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/travel/club-vistara-sbi-card.page",
+  "status": "active",
+  "fees": {
+    "joining_fee": 1499,
+    "renewal_fee": 0,
+    "addon_card_fee": 0,
+    "fee_waiver": {
+      "spend_threshold": null,
+      "type": null
+    }
+  },
+  "reward_structure": {
+    "redemption_rates": {
+      "default": 0.6667
+    },
+    "category_earnings": {
+      "default": {
+        "points_per_100": 1
+      }
+    },
+    "partner_earnings": {
+      "vistara": {
+        "type": "points",
+        "percentage": null,
+        "points_per_100": 1,
+        "points_equivalent": null,
+        "monthly_cap_points": null,
+        "merchant": "vistara"
+      }
+    },
+    "special_earnings": {
+      "birthday": {
+        "points_per_100": 0,
+        "annual_cap_points": 0,
+        "validity_days": 0
+      },
+      "standing_instructions": {
+        "category": "",
+        "points_per_100": 0,
+        "monthly_cap_points": 0
+      }
+    },
+    "reward_caps": {
+      "monthly_points_cap": null,
+      "after_cap_earning": {
+        "points_per_100": null
+      }
+    },
+    "exclusions": [],
+    "redemption": {
+      "minimum_points": null,
+      "multiples_of": null,
+      "instant_redemption_partners": []
+    }
+  },
+  "cashback": {
+    "general": {
+      "percentage": null,
+      "monthly_cap": null,
+      "exclusions": []
+    },
+    "category_specific": {}
+  },
+  "welcome_benefits": {
+    "bonus_points": null,
+    "gift_voucher": null,
+    "other": null,
+    "conditions": null,
+    "validity": null
+  },
+  "milestones": [
+    {
+      "spend_threshold": 500000,
+      "bonus_points": 0,
+      "category": "all",
+      "frequency": "annual",
+      "exclusions": null
+    }
+  ],
+  "renewal_benefits": {
+    "bonus_points": 0,
+    "conditions": null
+  },
+  "fuel_benefits": {
+    "surcharge_waiver": {
+      "percentage": null,
+      "min_transaction": null,
+      "max_transaction": null,
+      "monthly_cap": null,
+      "billing_cycle_cap": null
+    }
+  },
+  "lounge_access": {
+    "domestic": {
+      "complimentary_visits_per_year": 4,
+      "complimentary_visits_per_quarter": 1,
+      "milestone_based_additional_visits": null,
+      "program": null,
+      "guest_allowed": false
+    },
+    "international": {
+      "complimentary_visits_per_year": 0,
+      "complimentary_visits_per_quarter": null,
+      "usage_fee_after_limit": 27,
+      "program": "Priority Pass"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": null
+    }
+  },
+  "insurance": {
+    "fraud_liability": 100000,
+    "air_accident": 0,
+    "overseas_accident": 0,
+    "rail_accident": 0,
+    "purchase_protection": 0,
+    "lost_baggage": 72000,
+    "delay_of_baggage": 7500,
+    "loss_of_documents": 12500,
+    "baggage_damage": 2500,
+    "flight_cancellation": {
+      "max_claims_per_year": null,
+      "max_claim_amount": null
+    }
+  },
+  "other_benefits": {
+    "forex_markup_percentage": null,
+    "concierge_service": false,
+    "golf_program": false,
+    "buy_one_get_one": {
+      "dining": false,
+      "movies": false
+    },
+    "complimentary_memberships": {
+      "priority_pass": {
+        "available": true,
+        "activation_condition": null
+      }
+    }
+  },
+  "benefit_changes": [
+    {
+      "effective_date": "2025-04-01",
+      "change_type": "discontinued",
+      "description": "Renewal benefit of 1 Economy Ticket Voucher will be discontinued for all cards due for renewal after 01 April 2025."
+    },
+    {
+      "effective_date": "2025-04-01",
+      "change_type": "discontinued",
+      "description": "Milestone benefit of 1 Economy Ticket each, on annual spend of Rs. 1.25 Lakhs, Rs. 2.5 Lakhs and Rs. 5 Lakhs will be discontinued for all cards due for renewal after 01 April 2025."
+    }
+  ],
+  "promotional_offers": [],
+  "category_tags": [
+    "travel"
+  ],
+  "partner_category_tags": [
+    "travel"
+  ],
+  "user_intents": [
+    "travel_rewards",
+    "lounge_access",
+    "feature_question"
+  ]
+}

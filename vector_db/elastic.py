@@ -32,7 +32,7 @@ class ElasticsearchClient:
         self.config = config
         self.client = Elasticsearch(
             [config.elasticsearch_url],
-            timeout=config.timeout,
+            # timeout=config.timeout,
             max_retries=config.max_retries,
             retry_on_timeout=True,
         )

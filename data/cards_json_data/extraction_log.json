@@ -1,0 +1,206 @@
+{
+  "success": [
+    "bom-sbi-card-elite",
+    "bom-sbi-card-prime",
+    "bom-simplysave-sbi-card",
+    "central-bank-of-india-elite-card",
+    "central-bank-of-india-prime-card",
+    "central-bank-of-india-simplysave-sbi-card",
+    "city-union-bank-sbi-card-prime",
+    "city-union-bank-simplysave-sbi-card",
+    "karnataka-bank-sbi-card-prime",
+    "karnataka-bank-simplysave-sbi-card",
+    "karur-vysya-bank-sbi-card-elite",
+    "karur-vysya-bank-sbi-card-gold",
+    "karur-vysya-bank-sbi-card-prime",
+    "karur-vysya-bank-sbi-card-simplysave",
+    "karur-vysya-bank-sbi-card",
+    "karur-vysya-bank-sbi-platinum-card",
+    "karur-vysya-bank-sbi-platinum-credit-card",
+    "karur-vysya-bank-sbi-signature-card",
+    "karur-vysya-bank-sbi-signature-credit-card",
+    "psb-sbi-card-elite",
+    "psb-sbi-card-prime",
+    "psb-simplysave-sbi-card",
+    "south-india-bank-sbi-platinum-card",
+    "south-india-bank-sbi-platinum-credit-card",
+    "south-indian-bank-sbi-card-prime",
+    "south-indian-bank-simplysave-sbi-card",
+    "uco-bank-sbi-card-elite",
+    "uco-bank-sbi-card-prime",
+    "uco-bank-simplysave-sbi-card",
+    "shaurya-sbi-card",
+    "shaurya-select-sbi-card",
+    "doctors-ima-sbi-card",
+    "doctors-sbi-card",
+    "sbi-card-elite-advantage",
+    "sbi-card-elite",
+    "sbi-card-pulse-sprint",
+    "sbi-card-pulse",
+    "tata-neu-infinity-sbi-card",
+    "tata-neu-plus-sbi-card",
+    "aditya-birla-sbi-card-select",
+    "aditya-birla-sbi-card",
+    "apollo-sbi-card",
+    "cashback-sbi-card",
+    "flipkart-sbi-card",
+    "phonepe-sbi-card-purple",
+    "phonepe-sbi-card-select-black",
+    "sbi-card-prime-advantage",
+    "sbi-card-prime",
+    "fab-india-sbi-card-select",
+    "fbb-styleup-card",
+    "hc-sbi-card-prime",
+    "landmark-sbi-card-prime",
+    "landmark-sbi-card-select",
+    "landmark-sbi-card",
+    "lifestyle-hc-sbi-card-select",
+    "lifestyle-hc-sbi-card",
+    "max-sbi-card-prime",
+    "max-sbi-card-select",
+    "max-sbi-card",
+    "reliance-sbi-card-prime",
+    "reliance-sbi-card",
+    "sbi-card-unnati",
+    "simplyclick-advantage-sbi-card",
+    "simplyclick-sbi-card",
+    "simplysave-advantage-card",
+    "simplysave-sbi-card",
+    "spar-sbi-card-prime",
+    "spar-sbi-card-select",
+    "spar-sbi-card",
+    "air-india-sbi-platinum-card",
+    "air-india-sbi-signature-card",
+    "bpcl-sbi-card-octane",
+    "bpcl-sbi-card",
+    "club-vistara-sbi-card-prime",
+    "club-vistara-sbi-card",
+    "etihad-guest-sbi-card",
+    "etihad-guest-sbi-premier-card",
+    "indigo-sbi-card-elite",
+    "indigo-sbi-card",
+    "irctc-premier-card",
+    "irctc-rupay-sbi-card",
+    "irctc-sbi-platinum-card",
+    "krisflyer-sbi-card-apex",
+    "ola-money-sbi-card",
+    "paytm-sbi-card-select",
+    "paytm-sbi-card",
+    "sbi-card-miles-elite",
+    "yatra-sbi-card"
+  ],
+  "failed": [
+    {
+      "file": "en_personal_credit-cards_rewards_apollo-sbi-card-select.page.md",
+      "card_id": "apollo-sbi-card-select",
+      "errors": [
+        "default points_per_100 = 0 but card has redemption_rates.default = 1.0. Check source for 'per Rs. 125' or 'per Rs. 150' patterns that need conversion."
+      ]
+    },
+    {
+      "file": "en_personal_credit-cards_shopping_fab-india-sbi-card.page.md",
+      "card_id": "fab-india-sbi-card",
+      "errors": [
+        "default points_per_100 = 0 but card has redemption_rates.default = 1.0. Check source for 'per Rs. 125' or 'per Rs. 150' patterns that need conversion."
+      ]
+    },
+    {
+      "file": "en_personal_credit-cards_shopping_titan-sbi-card.page.md",
+      "card_id": "titan-sbi-card",
+      "errors": [
+        "default points_per_100 = 6 is too high. No SBI card has a base rate above 5. Check for 'per ₹200' conversion error."
+      ]
+    },
+    {
+      "file": "en_personal_credit-cards_travel_krisflyer-sbi-card.page.md",
+      "card_id": "krisflyer-sbi-card",
+      "errors": [
+        "default points_per_100 = 10 is too high. No SBI card has a base rate above 5. Check for 'per ₹200' conversion error."
+      ]
+    },
+    {
+      "file": "en_personal_credit-cards_travel_sbi-card-miles-prime.page.md",
+      "card_id": "sbi-card-miles-prime",
+      "errors": [
+        "default points_per_100 = 10 is too high. No SBI card has a base rate above 5. Check for 'per ₹200' conversion error."
+      ]
+    },
+    {
+      "file": "en_personal_credit-cards_travel_sbi-card-miles.page.md",
+      "card_id": "sbi-card-miles",
+      "errors": [
+        "default points_per_100 = 0 but card has redemption_rates.default = 0.25. Check source for 'per Rs. 125' or 'per Rs. 150' patterns that need conversion."
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "file": "en_personal_credit-cards_banking-partnership_federal-bank-sbi-gold-and-more-credit-card.page.md",
+      "reason": "scraping_artifact",
+      "card_id": "federal-bank-sbi-gold-and-more-credit-card"
+    }
+  ],
+  "warnings": [
+    {
+      "card_id": "apollo-sbi-card-select",
+      "warnings": [
+        "Milestones not sorted by spend_threshold ascending"
+      ]
+    },
+    {
+      "card_id": "hc-sbi-card-prime",
+      "warnings": [
+        "Milestones not sorted by spend_threshold ascending"
+      ]
+    },
+    {
+      "card_id": "lifestyle-hc-sbi-card",
+      "warnings": [
+        "Milestones not sorted by spend_threshold ascending"
+      ]
+    },
+    {
+      "card_id": "max-sbi-card-prime",
+      "warnings": [
+        "Milestones not sorted by spend_threshold ascending"
+      ]
+    },
+    {
+      "card_id": "max-sbi-card-select",
+      "warnings": [
+        "Milestones not sorted by spend_threshold ascending"
+      ]
+    },
+    {
+      "card_id": "max-sbi-card",
+      "warnings": [
+        "Milestones not sorted by spend_threshold ascending"
+      ]
+    },
+    {
+      "card_id": "spar-sbi-card-prime",
+      "warnings": [
+        "Milestones not sorted by spend_threshold ascending"
+      ]
+    },
+    {
+      "card_id": "spar-sbi-card",
+      "warnings": [
+        "Milestones not sorted by spend_threshold ascending"
+      ]
+    },
+    {
+      "card_id": "krisflyer-sbi-card",
+      "warnings": [
+        "Milestones not sorted by spend_threshold ascending"
+      ]
+    }
+  ],
+  "category_tags": [
+    "general"
+  ],
+  "partner_category_tags": [],
+  "user_intents": [
+    "feature_question"
+  ]
+}

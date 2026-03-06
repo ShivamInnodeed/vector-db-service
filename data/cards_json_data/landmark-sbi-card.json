@@ -1,0 +1,173 @@
+{
+  "card_id": "landmark-sbi-card",
+  "card_name": "Landmark Rewards SBI Card",
+  "category": "shopping",
+  "network": "visa",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/shopping/landmark-sbi-card.page",
+  "status": "active",
+  "fees": {
+    "joining_fee": 499,
+    "renewal_fee": 499,
+    "addon_card_fee": 0,
+    "fee_waiver": {
+      "spend_threshold": null,
+      "type": null
+    }
+  },
+  "reward_structure": {
+    "redemption_rates": {
+      "default": 0.25
+    },
+    "category_earnings": {
+      "dining": {
+        "points_per_100": 5
+      },
+      "movies": {
+        "points_per_100": 5
+      },
+      "international": {
+        "points_per_100": 5
+      },
+      "default": {
+        "points_per_100": 1
+      }
+    },
+    "partner_earnings": {
+      "lifestyle": {
+        "type": "points",
+        "percentage": null,
+        "points_per_100": 10,
+        "points_equivalent": null,
+        "monthly_cap_points": null,
+        "merchant": "Landmark Stores"
+      }
+    },
+    "special_earnings": {
+      "birthday": {
+        "points_per_100": 0,
+        "annual_cap_points": 0,
+        "validity_days": 0
+      },
+      "standing_instructions": {
+        "category": "",
+        "points_per_100": 0,
+        "monthly_cap_points": 0
+      }
+    },
+    "reward_caps": {
+      "monthly_points_cap": null,
+      "after_cap_earning": {
+        "points_per_100": null
+      }
+    },
+    "exclusions": [],
+    "redemption": {
+      "minimum_points": null,
+      "multiples_of": null,
+      "instant_redemption_partners": [
+        "Lifestyle",
+        "Home Centre",
+        "Spar",
+        "Max",
+        "Baby Shop",
+        "Easy Buy"
+      ]
+    }
+  },
+  "cashback": {
+    "general": {
+      "percentage": null,
+      "monthly_cap": null,
+      "exclusions": []
+    },
+    "category_specific": {}
+  },
+  "welcome_benefits": {
+    "bonus_points": 2000,
+    "gift_voucher": null,
+    "other": null,
+    "conditions": "on payment of annual fees",
+    "validity": null
+  },
+  "milestones": [
+    {
+      "spend_threshold": 200000,
+      "bonus_points": 8000,
+      "category": "all",
+      "frequency": "annual",
+      "exclusions": null
+    }
+  ],
+  "renewal_benefits": {
+    "bonus_points": 2000,
+    "conditions": "on realisation of renewal fees"
+  },
+  "fuel_benefits": {
+    "surcharge_waiver": {
+      "percentage": 1,
+      "min_transaction": 500,
+      "max_transaction": 3000,
+      "monthly_cap": 100,
+      "billing_cycle_cap": null
+    }
+  },
+  "lounge_access": {
+    "domestic": {
+      "complimentary_visits_per_year": 0,
+      "complimentary_visits_per_quarter": null,
+      "milestone_based_additional_visits": null,
+      "program": null,
+      "guest_allowed": false
+    },
+    "international": {
+      "complimentary_visits_per_year": 0,
+      "complimentary_visits_per_quarter": null,
+      "usage_fee_after_limit": null,
+      "program": null
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": null
+    }
+  },
+  "insurance": {
+    "fraud_liability": 0,
+    "air_accident": 0,
+    "overseas_accident": 0,
+    "rail_accident": 0,
+    "purchase_protection": 0,
+    "lost_baggage": 0,
+    "delay_of_baggage": 0,
+    "loss_of_documents": 0,
+    "baggage_damage": 0,
+    "flight_cancellation": {
+      "max_claims_per_year": null,
+      "max_claim_amount": null
+    }
+  },
+  "other_benefits": {
+    "forex_markup_percentage": null,
+    "concierge_service": false,
+    "golf_program": false,
+    "buy_one_get_one": {
+      "dining": false,
+      "movies": false
+    },
+    "complimentary_memberships": {}
+  },
+  "benefit_changes": [],
+  "promotional_offers": [],
+  "category_tags": [
+    "dining",
+    "movies",
+    "international"
+  ],
+  "partner_category_tags": [
+    "shopping"
+  ],
+  "user_intents": [
+    "category_rewards",
+    "cashback_focused",
+    "feature_question"
+  ]
+}

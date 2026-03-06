@@ -1,0 +1,171 @@
+{
+  "card_id": "city-union-bank-sbi-card-prime",
+  "card_name": "City Union Bank SBI Card PRIME",
+  "category": "banking-partnership",
+  "network": "visa",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/banking-partnership/city-union-bank-sbi-card-prime.page",
+  "status": "active",
+  "fees": {
+    "joining_fee": 2999,
+    "renewal_fee": 2999,
+    "addon_card_fee": 0,
+    "fee_waiver": {
+      "spend_threshold": 300000,
+      "type": "spend_based"
+    }
+  },
+  "reward_structure": {
+    "redemption_rates": {
+      "default": 0.25
+    },
+    "category_earnings": {
+      "dining": {
+        "points_per_100": 10
+      },
+      "grocery": {
+        "points_per_100": 10
+      },
+      "movies": {
+        "points_per_100": 10
+      },
+      "utility": {
+        "points_per_100": 20
+      },
+      "default": {
+        "points_per_100": 2
+      }
+    },
+    "partner_earnings": {},
+    "special_earnings": {
+      "birthday": {
+        "points_per_100": 20,
+        "annual_cap_points": 2000,
+        "validity_days": 3
+      },
+      "standing_instructions": {
+        "category": "utility",
+        "points_per_100": 20,
+        "monthly_cap_points": null
+      }
+    },
+    "reward_caps": {
+      "monthly_points_cap": null,
+      "after_cap_earning": {
+        "points_per_100": null
+      }
+    },
+    "exclusions": [],
+    "redemption": {
+      "minimum_points": null,
+      "multiples_of": null,
+      "instant_redemption_partners": []
+    }
+  },
+  "cashback": {
+    "general": {
+      "percentage": null,
+      "monthly_cap": null,
+      "exclusions": []
+    },
+    "category_specific": {}
+  },
+  "welcome_benefits": {
+    "bonus_points": null,
+    "gift_voucher": 3000,
+    "other": null,
+    "conditions": null,
+    "validity": null
+  },
+  "milestones": [
+    {
+      "spend_threshold": 50000,
+      "bonus_points": null,
+      "category": "all",
+      "frequency": "quarterly",
+      "exclusions": null
+    },
+    {
+      "spend_threshold": 500000,
+      "bonus_points": null,
+      "category": "all",
+      "frequency": "annual",
+      "exclusions": null
+    }
+  ],
+  "renewal_benefits": {
+    "bonus_points": 0,
+    "conditions": null
+  },
+  "fuel_benefits": {
+    "surcharge_waiver": {
+      "percentage": 1,
+      "min_transaction": 500,
+      "max_transaction": 4000,
+      "monthly_cap": 250,
+      "billing_cycle_cap": null
+    }
+  },
+  "lounge_access": {
+    "domestic": {
+      "complimentary_visits_per_year": 8,
+      "complimentary_visits_per_quarter": 2,
+      "milestone_based_additional_visits": 0,
+      "program": null,
+      "guest_allowed": false
+    },
+    "international": {
+      "complimentary_visits_per_year": 4,
+      "complimentary_visits_per_quarter": 2,
+      "usage_fee_after_limit": null,
+      "program": "Priority Pass"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": null
+    }
+  },
+  "insurance": {
+    "fraud_liability": 100000,
+    "air_accident": 0,
+    "overseas_accident": 0,
+    "rail_accident": 0,
+    "purchase_protection": 0,
+    "lost_baggage": 0,
+    "delay_of_baggage": 0,
+    "loss_of_documents": 0,
+    "baggage_damage": 0,
+    "flight_cancellation": {
+      "max_claims_per_year": null,
+      "max_claim_amount": null
+    }
+  },
+  "other_benefits": {
+    "forex_markup_percentage": null,
+    "concierge_service": false,
+    "golf_program": false,
+    "buy_one_get_one": {
+      "dining": false,
+      "movies": false
+    },
+    "complimentary_memberships": {}
+  },
+  "benefit_changes": [
+    {
+      "effective_date": "2025-08-11",
+      "change_type": "discontinued",
+      "description": "Complimentary Air Accident Insurance coverage of Rs. 50 Lakh"
+    }
+  ],
+  "promotional_offers": [],
+  "category_tags": [
+    "utility",
+    "dining",
+    "movies"
+  ],
+  "partner_category_tags": [],
+  "user_intents": [
+    "category_rewards",
+    "lounge_access",
+    "feature_question"
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "card_id": "sbi-card-miles-elite",
+  "card_name": "SBI Card Miles Elite",
+  "category": "travel",
+  "network": "mastercard",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/travel/sbi-card-miles-elite.page",
+  "status": "active",
+  "fees": {
+    "joining_fee": 4999,
+    "renewal_fee": 4999,
+    "addon_card_fee": 0,
+    "fee_waiver": {
+      "spend_threshold": 1500000,
+      "type": "spend_based"
+    }
+  },
+  "reward_structure": {
+    "redemption_rates": {
+      "default": 0.25,
+      "air_miles": 1.0,
+      "travel_bookings": 0.5,
+      "catalogue": 0.25
+    },
+    "category_earnings": {
+      "travel": {
+        "points_per_100": 3
+      },
+      "default": {
+        "points_per_100": 1
+      }
+    },
+    "partner_earnings": {},
+    "special_earnings": {},
+    "reward_caps": {
+      "monthly_points_cap": null,
+      "after_cap_earning": {
+        "points_per_100": null
+      }
+    },
+    "exclusions": [
+      "fuel",
+      "emi",
+      "wallet_upload",
+      "property_rental",
+      "utilities",
+      "insurance"
+    ],
+    "redemption": {
+      "minimum_points": null,
+      "multiples_of": null,
+      "instant_redemption_partners": []
+    }
+  },
+  "cashback": {
+    "general": {
+      "percentage": null,
+      "monthly_cap": null,
+      "exclusions": []
+    },
+    "category_specific": {}
+  },
+  "welcome_benefits": {
+    "bonus_points": 5000,
+    "gift_voucher": null,
+    "other": null,
+    "conditions": "spends of ₹ 1,00,000 within 60 days of card issuance",
+    "validity": null
+  },
+  "milestones": [
+    {
+      "spend_threshold": 1200000,
+      "bonus_points": 20000,
+      "category": "all",
+      "frequency": "annual",
+      "exclusions": null
+    }
+  ],
+  "renewal_benefits": {
+    "bonus_points": 0,
+    "conditions": null
+  },
+  "fuel_benefits": {
+    "surcharge_waiver": {
+      "percentage": 1,
+      "min_transaction": 500,
+      "max_transaction": 4000,
+      "monthly_cap": 500,
+      "billing_cycle_cap": 500
+    }
+  },
+  "lounge_access": {
+    "domestic": {
+      "complimentary_visits_per_year": 8,
+      "complimentary_visits_per_quarter": 2,
+      "milestone_based_additional_visits": 15,
+      "program": null,
+      "guest_allowed": true
+    },
+    "international": {
+      "complimentary_visits_per_year": 6,
+      "complimentary_visits_per_quarter": 2,
+      "usage_fee_after_limit": 27,
+      "program": "Priority Pass"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": null
+    }
+  },
+  "insurance": {
+    "fraud_liability": 100000,
+    "air_accident": 10000000,
+    "overseas_accident": 0,
+    "rail_accident": 0,
+    "purchase_protection": 0,
+    "lost_baggage": 72000,
+    "delay_of_baggage": 7500,
+    "loss_of_documents": 12500,
+    "baggage_damage": 5000,
+    "flight_cancellation": {
+      "max_claims_per_year": 6,
+      "max_claim_amount": 3500
+    }
+  },
+  "other_benefits": {
+    "forex_markup_percentage": 1.99,
+    "concierge_service": false,
+    "golf_program": false,
+    "buy_one_get_one": {
+      "dining": false,
+      "movies": false
+    },
+    "complimentary_memberships": {}
+  },
+  "benefit_changes": [
+    {
+      "effective_date": "2025-07-15",
+      "change_type": "discontinued",
+      "description": "complimentary Air Accident insurance coverage of ₹ 1 crore"
+    }
+  ],
+  "promotional_offers": [],
+  "category_tags": [
+    "travel"
+  ],
+  "partner_category_tags": [],
+  "user_intents": [
+    "category_rewards",
+    "lounge_access",
+    "insurance_coverage",
+    "travel_rewards",
+    "feature_question"
+  ]
+}

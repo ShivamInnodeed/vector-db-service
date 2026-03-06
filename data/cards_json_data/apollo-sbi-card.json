@@ -1,0 +1,178 @@
+{
+  "card_id": "apollo-sbi-card",
+  "card_name": "Apollo SBI Card",
+  "category": "rewards",
+  "network": "mastercard",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/rewards/apollo-sbi-card.page",
+  "status": "active",
+  "fees": {
+    "joining_fee": 499,
+    "renewal_fee": 499,
+    "addon_card_fee": 0,
+    "fee_waiver": {
+      "spend_threshold": 100000,
+      "type": "spend_based"
+    }
+  },
+  "reward_structure": {
+    "redemption_rates": {
+      "default": 1.0
+    },
+    "category_earnings": {
+      "dining": {
+        "points_per_100": 2
+      },
+      "movies": {
+        "points_per_100": 2
+      },
+      "beauty": {
+        "points_per_100": 1
+      },
+      "default": {
+        "points_per_100": 0.5
+      }
+    },
+    "partner_earnings": {
+      "apollo": {
+        "type": "points",
+        "percentage": null,
+        "points_per_100": 3,
+        "points_equivalent": null,
+        "monthly_cap_points": null,
+        "merchant": "Apollo services"
+      }
+    },
+    "special_earnings": {
+      "birthday": {
+        "points_per_100": null,
+        "annual_cap_points": null,
+        "validity_days": null
+      },
+      "standing_instructions": {
+        "category": null,
+        "points_per_100": null,
+        "monthly_cap_points": null
+      }
+    },
+    "reward_caps": {
+      "monthly_points_cap": null,
+      "after_cap_earning": {
+        "points_per_100": null
+      }
+    },
+    "exclusions": [],
+    "redemption": {
+      "minimum_points": null,
+      "multiples_of": null,
+      "instant_redemption_partners": [
+        "Apollo services"
+      ]
+    }
+  },
+  "cashback": {
+    "general": {
+      "percentage": null,
+      "monthly_cap": null,
+      "exclusions": []
+    },
+    "category_specific": {
+      "apollo": {
+        "percentage": 10,
+        "monthly_cap": null,
+        "notes": null
+      }
+    }
+  },
+  "welcome_benefits": {
+    "bonus_points": 500,
+    "gift_voucher": null,
+    "other": "Complimentary Apollo Gold Tier Membership",
+    "conditions": "On payment of joining fee",
+    "validity": null
+  },
+  "milestones": [
+    {
+      "spend_threshold": 75000,
+      "bonus_points": null,
+      "category": "apollo",
+      "frequency": "annual",
+      "exclusions": null
+    }
+  ],
+  "renewal_benefits": {
+    "bonus_points": 0,
+    "conditions": null
+  },
+  "fuel_benefits": {
+    "surcharge_waiver": {
+      "percentage": 1,
+      "min_transaction": 500,
+      "max_transaction": 3000,
+      "monthly_cap": 100,
+      "billing_cycle_cap": null
+    }
+  },
+  "lounge_access": {
+    "domestic": {
+      "complimentary_visits_per_year": 0,
+      "complimentary_visits_per_quarter": null,
+      "milestone_based_additional_visits": null,
+      "program": null,
+      "guest_allowed": false
+    },
+    "international": {
+      "complimentary_visits_per_year": 0,
+      "complimentary_visits_per_quarter": null,
+      "usage_fee_after_limit": null,
+      "program": null
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": null
+    }
+  },
+  "insurance": {
+    "fraud_liability": 0,
+    "air_accident": 0,
+    "overseas_accident": 0,
+    "rail_accident": 0,
+    "purchase_protection": 0,
+    "lost_baggage": 0,
+    "delay_of_baggage": 0,
+    "loss_of_documents": 0,
+    "baggage_damage": 0,
+    "flight_cancellation": {
+      "max_claims_per_year": null,
+      "max_claim_amount": null
+    }
+  },
+  "other_benefits": {
+    "forex_markup_percentage": null,
+    "concierge_service": false,
+    "golf_program": false,
+    "buy_one_get_one": {
+      "dining": false,
+      "movies": false
+    },
+    "complimentary_memberships": {
+      "apollo_gold_tier": {
+        "available": true,
+        "activation_condition": "On payment of joining fee"
+      }
+    }
+  },
+  "benefit_changes": [],
+  "promotional_offers": [],
+  "category_tags": [
+    "dining",
+    "movies"
+  ],
+  "partner_category_tags": [
+    "utility"
+  ],
+  "user_intents": [
+    "category_rewards",
+    "cashback_focused",
+    "feature_question"
+  ]
+}

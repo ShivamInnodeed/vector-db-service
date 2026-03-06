@@ -1,0 +1,193 @@
+{
+  "card_id": "etihad-guest-sbi-card",
+  "card_name": "Etihad Guest SBI Card",
+  "category": "travel",
+  "network": "visa",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/travel/etihad-guest-sbi-card.page",
+  "status": "discontinued",
+  "fees": {
+    "joining_fee": 1499,
+    "renewal_fee": 1499,
+    "addon_card_fee": 0,
+    "fee_waiver": {
+      "spend_threshold": 300000,
+      "type": "spend_based"
+    }
+  },
+  "reward_structure": {
+    "redemption_rates": {
+      "default": 1.0
+    },
+    "category_earnings": {
+      "dining": {
+        "points_per_100": null
+      },
+      "travel": {
+        "points_per_100": null
+      },
+      "fuel": {
+        "points_per_100": null
+      },
+      "grocery": {
+        "points_per_100": null
+      },
+      "movies": {
+        "points_per_100": null
+      },
+      "international": {
+        "points_per_100": 2
+      },
+      "utility": {
+        "points_per_100": null
+      },
+      "default": {
+        "points_per_100": 1
+      }
+    },
+    "partner_earnings": {
+      "etihad": {
+        "type": "points",
+        "percentage": null,
+        "points_per_100": 3,
+        "points_equivalent": null,
+        "monthly_cap_points": null,
+        "merchant": "etihad.com"
+      }
+    },
+    "special_earnings": {
+      "birthday": {
+        "points_per_100": null,
+        "annual_cap_points": null,
+        "validity_days": null
+      },
+      "standing_instructions": {
+        "category": null,
+        "points_per_100": null,
+        "monthly_cap_points": null
+      }
+    },
+    "reward_caps": {
+      "monthly_points_cap": null,
+      "after_cap_earning": {
+        "points_per_100": null
+      }
+    },
+    "exclusions": [
+      "fuel"
+    ],
+    "redemption": {
+      "minimum_points": null,
+      "multiples_of": null,
+      "instant_redemption_partners": null
+    }
+  },
+  "cashback": {
+    "general": {
+      "percentage": null,
+      "monthly_cap": null,
+      "exclusions": null
+    },
+    "category_specific": {}
+  },
+  "welcome_benefits": {
+    "bonus_points": 2500,
+    "gift_voucher": null,
+    "other": "Complimentary Etihad Guest Silver tier status post first card transaction, 1 Free Wifi voucher on your first Etihad ways booking",
+    "conditions": null,
+    "validity": null
+  },
+  "milestones": [
+    {
+      "spend_threshold": 500000,
+      "bonus_points": 5000,
+      "category": "all",
+      "frequency": "annual",
+      "exclusions": null
+    },
+    {
+      "spend_threshold": 1000000,
+      "bonus_points": null,
+      "category": null,
+      "frequency": null,
+      "exclusions": null
+    }
+  ],
+  "renewal_benefits": {
+    "bonus_points": 0,
+    "conditions": null
+  },
+  "fuel_benefits": {
+    "surcharge_waiver": {
+      "percentage": 1,
+      "min_transaction": 500,
+      "max_transaction": 4000,
+      "monthly_cap": null,
+      "billing_cycle_cap": 250
+    }
+  },
+  "lounge_access": {
+    "domestic": {
+      "complimentary_visits_per_year": 8,
+      "complimentary_visits_per_quarter": 2,
+      "milestone_based_additional_visits": null,
+      "program": "Priority Pass Program",
+      "guest_allowed": null
+    },
+    "international": {
+      "complimentary_visits_per_year": 0,
+      "complimentary_visits_per_quarter": null,
+      "usage_fee_after_limit": null,
+      "program": null
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": null
+    }
+  },
+  "insurance": {
+    "fraud_liability": 50000,
+    "air_accident": 0,
+    "overseas_accident": 500000,
+    "rail_accident": 0,
+    "purchase_protection": 0,
+    "lost_baggage": 1000,
+    "delay_of_baggage": 0,
+    "loss_of_documents": 0,
+    "baggage_damage": 0,
+    "flight_cancellation": {
+      "max_claims_per_year": null,
+      "max_claim_amount": null
+    }
+  },
+  "other_benefits": {
+    "forex_markup_percentage": null,
+    "concierge_service": null,
+    "golf_program": null,
+    "buy_one_get_one": {
+      "dining": null,
+      "movies": null
+    },
+    "complimentary_memberships": {}
+  },
+  "benefit_changes": [
+    {
+      "effective_date": "2025-12-01",
+      "change_type": "discontinued",
+      "description": "Etihad Guest SBI Credit Cards will be phased out & an equally rewarding Miles SBI Credit Card will be issued"
+    }
+  ],
+  "promotional_offers": [],
+  "category_tags": [
+    "travel",
+    "international"
+  ],
+  "partner_category_tags": [
+    "travel"
+  ],
+  "user_intents": [
+    "travel_rewards",
+    "lounge_access",
+    "insurance_coverage",
+    "feature_question"
+  ]
+}

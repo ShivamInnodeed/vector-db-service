@@ -1,0 +1,182 @@
+{
+  "success": [
+    "aditya-birla-sbi-card-select",
+    "aditya-birla-sbi-card",
+    "air-india-sbi-platinum-card",
+    "air-india-sbi-signature-card",
+    "apollo-sbi-card",
+    "bom-sbi-card-elite",
+    "bom-sbi-card-prime",
+    "bom-simplysave-sbi-card",
+    "bpcl-sbi-card-octane",
+    "bpcl-sbi-card",
+    "cashback-sbi-card",
+    "central-bank-of-india-elite-card",
+    "central-bank-of-india-prime-card",
+    "central-bank-of-india-simplysave-sbi-card",
+    "city-union-bank-sbi-card-prime",
+    "city-union-bank-simplysave-sbi-card",
+    "club-vistara-sbi-card-prime",
+    "club-vistara-sbi-card",
+    "doctors-ima-sbi-card",
+    "doctors-sbi-card",
+    "etihad-guest-sbi-card",
+    "etihad-guest-sbi-premier-card",
+    "extraction_log",
+    "fab-india-sbi-card-select",
+    "fbb-styleup-card",
+    "flipkart-sbi-card",
+    "hc-sbi-card-prime",
+    "indigo-sbi-card-elite",
+    "indigo-sbi-card",
+    "irctc-premier-card",
+    "irctc-rupay-sbi-card",
+    "irctc-sbi-platinum-card",
+    "karnataka-bank-sbi-card-prime",
+    "karnataka-bank-simplysave-sbi-card",
+    "karur-vysya-bank-sbi-card-elite",
+    "karur-vysya-bank-sbi-card-gold",
+    "karur-vysya-bank-sbi-card-prime",
+    "karur-vysya-bank-sbi-card-simplysave",
+    "karur-vysya-bank-sbi-card",
+    "karur-vysya-bank-sbi-platinum-card",
+    "karur-vysya-bank-sbi-platinum-credit-card",
+    "karur-vysya-bank-sbi-signature-card",
+    "karur-vysya-bank-sbi-signature-credit-card",
+    "krisflyer-sbi-card-apex",
+    "landmark-sbi-card-prime",
+    "landmark-sbi-card-select",
+    "landmark-sbi-card",
+    "lifestyle-hc-sbi-card-select",
+    "lifestyle-hc-sbi-card",
+    "max-sbi-card-prime",
+    "max-sbi-card-select",
+    "max-sbi-card",
+    "ola-money-sbi-card",
+    "paytm-sbi-card-select",
+    "paytm-sbi-card",
+    "phonepe-sbi-card-purple",
+    "phonepe-sbi-card-select-black",
+    "psb-sbi-card-elite",
+    "psb-sbi-card-prime",
+    "psb-simplysave-sbi-card",
+    "reliance-sbi-card-prime",
+    "reliance-sbi-card",
+    "sbi-card-elite-advantage",
+    "sbi-card-elite",
+    "sbi-card-miles-elite",
+    "sbi-card-prime-advantage",
+    "sbi-card-prime",
+    "sbi-card-pulse-sprint",
+    "sbi-card-pulse",
+    "sbi-card-unnati",
+    "shaurya-sbi-card",
+    "shaurya-select-sbi-card",
+    "simplyclick-advantage-sbi-card",
+    "simplyclick-sbi-card",
+    "simplysave-advantage-card",
+    "simplysave-sbi-card",
+    "south-india-bank-sbi-platinum-card",
+    "south-india-bank-sbi-platinum-credit-card",
+    "south-indian-bank-sbi-card-prime",
+    "south-indian-bank-simplysave-sbi-card",
+    "spar-sbi-card-prime",
+    "spar-sbi-card-select",
+    "spar-sbi-card",
+    "tata-neu-infinity-sbi-card",
+    "tata-neu-plus-sbi-card",
+    "uco-bank-sbi-card-elite",
+    "uco-bank-sbi-card-prime",
+    "uco-bank-simplysave-sbi-card",
+    "yatra-sbi-card"
+  ],
+  "failed": [],
+  "warnings": [
+    {
+      "card_id": "aditya-birla-sbi-card-select",
+      "warnings": [
+        "Invalid category_tag: 'entertainment'",
+        "Invalid category_tag: 'hotels'"
+      ]
+    },
+    {
+      "card_id": "aditya-birla-sbi-card",
+      "warnings": [
+        "Invalid category_tag: 'entertainment'",
+        "Invalid category_tag: 'hotels'"
+      ]
+    },
+    {
+      "card_id": "bom-sbi-card-elite",
+      "warnings": [
+        "Invalid category_tag: 'departmental'"
+      ]
+    },
+    {
+      "card_id": "central-bank-of-india-elite-card",
+      "warnings": [
+        "Invalid category_tag: 'departmental'"
+      ]
+    },
+    {
+      "card_id": "doctors-ima-sbi-card",
+      "warnings": [
+        "Invalid category_tag: 'medical_supplies'"
+      ]
+    },
+    {
+      "card_id": "doctors-sbi-card",
+      "warnings": [
+        "Invalid category_tag: 'medical supplies'"
+      ]
+    },
+    {
+      "card_id": "karur-vysya-bank-sbi-card-elite",
+      "warnings": [
+        "Invalid category_tag: 'departmental stores'"
+      ]
+    },
+    {
+      "card_id": "karur-vysya-bank-sbi-card-gold",
+      "warnings": [
+        "Invalid category_tag: 'departmental'"
+      ]
+    },
+    {
+      "card_id": "karur-vysya-bank-sbi-signature-card",
+      "warnings": [
+        "Invalid category_tag: 'departmental_stores'"
+      ]
+    },
+    {
+      "card_id": "karur-vysya-bank-sbi-signature-credit-card",
+      "warnings": [
+        "Invalid category_tag: 'departmental stores'"
+      ]
+    },
+    {
+      "card_id": "psb-sbi-card-elite",
+      "warnings": [
+        "Invalid category_tag: 'departmental'"
+      ]
+    },
+    {
+      "card_id": "sbi-card-elite-advantage",
+      "warnings": [
+        "Invalid category_tag: 'departmental'"
+      ]
+    },
+    {
+      "card_id": "sbi-card-elite",
+      "warnings": [
+        "Invalid category_tag: 'departmental stores'"
+      ]
+    },
+    {
+      "card_id": "uco-bank-sbi-card-elite",
+      "warnings": [
+        "Invalid category_tag: 'departmental'"
+      ]
+    }
+  ]
+}

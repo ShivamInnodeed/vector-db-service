@@ -1,0 +1,234 @@
+{
+  "card_id": "flipkart-sbi-card",
+  "card_name": "Flipkart SBI Card",
+  "category": "rewards",
+  "network": null,
+  "url": "https://www.sbicard.com/en/personal/credit-cards/rewards/flipkart-sbi-card.page",
+  "status": "active",
+  "tags": [
+    "fuel",
+    "general"
+  ],
+  "partner_tags": [
+    "shopping",
+    "travel"
+  ],
+  "intent_tags": [
+    "partner_rewards",
+    "cashback_focused",
+    "category_rewards",
+    "general_comparison"
+  ],
+  "fees": {
+    "joining_fee": 500,
+    "renewal_fee": 500,
+    "addon_card_fee": 0,
+    "fee_waiver": {
+      "spend_threshold": 350000,
+      "type": "spend_based"
+    }
+  },
+  "reward_structure": {
+    "redemption_rates": {
+      "default": null
+    },
+    "category_earnings": {
+      "default": {
+        "points_per_100": null
+      }
+    },
+    "partner_earnings": {
+      "flipkart": {
+        "type": "cashback",
+        "percentage": 5,
+        "points_per_100": 5,
+        "points_equivalent": null,
+        "monthly_cap_points": null,
+        "merchant": "flipkart"
+      },
+      "cleartrip": {
+        "type": "cashback",
+        "percentage": 12,
+        "points_per_100": null,
+        "points_equivalent": null,
+        "monthly_cap_points": null,
+        "merchant": "cleartrip"
+      },
+      "myntra": {
+        "type": "cashback",
+        "percentage": 7.5,
+        "points_per_100": 7.5,
+        "points_equivalent": null,
+        "monthly_cap_points": null,
+        "merchant": "myntra"
+      },
+      "preferred/select merchants": {
+        "type": "cashback",
+        "percentage": 4,
+        "points_per_100": 4,
+        "points_equivalent": null,
+        "monthly_cap_points": null,
+        "merchant": "preferred/select merchants"
+      }
+    },
+    "special_earnings": {
+      "birthday": {
+        "points_per_100": null,
+        "annual_cap_points": null,
+        "validity_days": null
+      },
+      "standing_instructions": {
+        "category": null,
+        "points_per_100": null,
+        "monthly_cap_points": null
+      }
+    },
+    "reward_caps": {
+      "monthly_points_cap": null,
+      "after_cap_earning": {
+        "points_per_100": null
+      }
+    },
+    "exclusions": [
+      "fuel",
+      "rental",
+      "government payments",
+      "jewelry",
+      "insurance",
+      "schools & education",
+      "gaming",
+      "wallets",
+      "emi spends on flipkart, cleartrip and myntra"
+    ],
+    "redemption": {
+      "minimum_points": null,
+      "multiples_of": null,
+      "instant_redemption_partners": []
+    }
+  },
+  "cashback": {
+    "general": {
+      "percentage": null,
+      "monthly_cap": null,
+      "exclusions": [
+        "fuel",
+        "rental",
+        "government payments",
+        "jewelry",
+        "insurance",
+        "schools & education",
+        "gaming",
+        "wallets",
+        "emi spends on flipkart, cleartrip and myntra"
+      ]
+    },
+    "category_specific": {
+      "flipkart": {
+        "percentage": 5,
+        "monthly_cap": null,
+        "notes": null
+      },
+      "cleartrip": {
+        "percentage": 12,
+        "monthly_cap": null,
+        "notes": null
+      },
+      "myntra": {
+        "percentage": 7.5,
+        "monthly_cap": null,
+        "notes": null
+      },
+      "preferred/select merchants": {
+        "percentage": 4,
+        "monthly_cap": null,
+        "notes": null
+      },
+      "other": {
+        "percentage": 1,
+        "monthly_cap": null,
+        "notes": null
+      }
+    }
+  },
+  "welcome_benefits": {
+    "bonus_points": null,
+    "gift_voucher": 250,
+    "other": "additional benefits worth Rs 1000 on first transaction on flipkart",
+    "conditions": "within 30 days of card approval",
+    "validity": "1 year from the date of issuance"
+  },
+  "milestones": [],
+  "renewal_benefits": {
+    "bonus_points": 0,
+    "conditions": null
+  },
+  "fuel_benefits": {
+    "surcharge_waiver": {
+      "percentage": 1,
+      "min_transaction": 500,
+      "max_transaction": 4000,
+      "monthly_cap": 400,
+      "billing_cycle_cap": null
+    }
+  },
+  "lounge_access": {
+    "domestic": {
+      "complimentary_visits_per_year": 0,
+      "complimentary_visits_per_quarter": null,
+      "milestone_based_additional_visits": null,
+      "program": null,
+      "guest_allowed": false
+    },
+    "international": {
+      "complimentary_visits_per_year": 0,
+      "complimentary_visits_per_quarter": null,
+      "usage_fee_after_limit": null,
+      "program": null
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": null
+    }
+  },
+  "insurance": {
+    "fraud_liability": 0,
+    "air_accident": 0,
+    "overseas_accident": 0,
+    "rail_accident": 0,
+    "purchase_protection": 0,
+    "lost_baggage": 0,
+    "delay_of_baggage": 0,
+    "loss_of_documents": 0,
+    "baggage_damage": 0,
+    "flight_cancellation": {
+      "max_claims_per_year": null,
+      "max_claim_amount": null
+    }
+  },
+  "other_benefits": {
+    "forex_markup_percentage": null,
+    "concierge_service": false,
+    "golf_program": false,
+    "buy_one_get_one": {
+      "dining": false,
+      "movies": false
+    },
+    "complimentary_memberships": {}
+  },
+  "benefit_changes": [],
+  "promotional_offers": [],
+  "category_tags": [
+    "shopping",
+    "travel"
+  ],
+  "partner_category_tags": [
+    "shopping",
+    "travel"
+  ],
+  "user_intents": [
+    "partner_rewards",
+    "category_rewards",
+    "cashback_focused",
+    "feature_question"
+  ]
+}

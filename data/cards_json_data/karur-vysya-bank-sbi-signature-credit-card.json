@@ -1,0 +1,172 @@
+{
+  "card_id": "karur-vysya-bank-sbi-signature-credit-card",
+  "card_name": "KVB SBI Signature Credit Card",
+  "category": "banking-partnership",
+  "network": "visa",
+  "url": "https://www.sbicard.com/en/personal/credit-cards/banking-partnership/karur-vysya-bank-sbi-signature-credit-card.page",
+  "status": "active",
+  "fees": {
+    "joining_fee": 4999,
+    "renewal_fee": 4999,
+    "addon_card_fee": 0,
+    "fee_waiver": {
+      "spend_threshold": null,
+      "type": null
+    }
+  },
+  "reward_structure": {
+    "redemption_rates": {
+      "default": 0.25
+    },
+    "category_earnings": {
+      "dining": {
+        "points_per_100": 5
+      },
+      "departmental stores": {
+        "points_per_100": 5
+      },
+      "grocery": {
+        "points_per_100": 5
+      },
+      "default": {
+        "points_per_100": 2
+      }
+    },
+    "partner_earnings": {},
+    "special_earnings": {},
+    "reward_caps": {
+      "monthly_points_cap": 10000,
+      "after_cap_earning": {
+        "points_per_100": 2
+      }
+    },
+    "exclusions": [],
+    "redemption": {
+      "minimum_points": null,
+      "multiples_of": null,
+      "instant_redemption_partners": []
+    }
+  },
+  "cashback": {
+    "general": {
+      "percentage": null,
+      "monthly_cap": null,
+      "exclusions": []
+    },
+    "category_specific": {}
+  },
+  "welcome_benefits": {
+    "bonus_points": null,
+    "gift_voucher": 5000,
+    "other": null,
+    "conditions": "within 21 working days of annual fees payment",
+    "validity": null
+  },
+  "milestones": [
+    {
+      "spend_threshold": 200000,
+      "bonus_points": 10000,
+      "category": "all",
+      "frequency": "annual",
+      "exclusions": null
+    },
+    {
+      "spend_threshold": 300000,
+      "bonus_points": 10000,
+      "category": "all",
+      "frequency": "annual",
+      "exclusions": null
+    },
+    {
+      "spend_threshold": 400000,
+      "bonus_points": 10000,
+      "category": "all",
+      "frequency": "annual",
+      "exclusions": null
+    },
+    {
+      "spend_threshold": 500000,
+      "bonus_points": 20000,
+      "category": "all",
+      "frequency": "annual",
+      "exclusions": null
+    }
+  ],
+  "renewal_benefits": {
+    "bonus_points": 0,
+    "conditions": null
+  },
+  "fuel_benefits": {
+    "surcharge_waiver": {
+      "percentage": 1,
+      "min_transaction": 500,
+      "max_transaction": 4000,
+      "monthly_cap": 250,
+      "billing_cycle_cap": null
+    }
+  },
+  "lounge_access": {
+    "domestic": {
+      "complimentary_visits_per_year": 0,
+      "complimentary_visits_per_quarter": null,
+      "milestone_based_additional_visits": null,
+      "program": null,
+      "guest_allowed": false
+    },
+    "international": {
+      "complimentary_visits_per_year": 0,
+      "complimentary_visits_per_quarter": null,
+      "usage_fee_after_limit": 27,
+      "program": "Priority Pass"
+    },
+    "railway": {
+      "visits_per_year": 0,
+      "visits_per_quarter": null
+    }
+  },
+  "insurance": {
+    "fraud_liability": 100000,
+    "air_accident": 10000000,
+    "overseas_accident": 0,
+    "rail_accident": 0,
+    "purchase_protection": 0,
+    "lost_baggage": 0,
+    "delay_of_baggage": 0,
+    "loss_of_documents": 0,
+    "baggage_damage": 0,
+    "flight_cancellation": {
+      "max_claims_per_year": null,
+      "max_claim_amount": null
+    }
+  },
+  "other_benefits": {
+    "forex_markup_percentage": null,
+    "concierge_service": false,
+    "golf_program": true,
+    "buy_one_get_one": {
+      "dining": false,
+      "movies": false
+    },
+    "complimentary_memberships": {}
+  },
+  "benefit_changes": [
+    {
+      "effective_date": "2025-08-11",
+      "change_type": "discontinued",
+      "description": "Complimentary Air Accident Insurance coverage of Rs 1 Cr"
+    }
+  ],
+  "promotional_offers": [],
+  "category_tags": [
+    "dining",
+    "grocery",
+    "departmental stores"
+  ],
+  "partner_category_tags": [],
+  "user_intents": [
+    "category_rewards",
+    "insurance_coverage",
+    "travel_rewards",
+    "feature_question"
+  ]
+}

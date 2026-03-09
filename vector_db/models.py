@@ -32,12 +32,14 @@ class Document:
 @dataclass
 class SearchResult:
     """Represents a search result returned from semantic search."""
-    
+
     id: str
     score: float
     text: str
     metadata: Optional[Dict[str, Any]] = None
-    
+    knn_score: Optional[float] = None
+    bm25_score: Optional[float] = None
+
     @classmethod
     def from_es_hit(cls, hit: Dict[str, Any]) -> "SearchResult":
         """Create SearchResult from Elasticsearch hit."""

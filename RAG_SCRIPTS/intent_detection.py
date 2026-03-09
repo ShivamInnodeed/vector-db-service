@@ -132,6 +132,12 @@ INTENT_KEYWORDS: Dict[str, List[str]] = {
         "points",
         "good rewards",
         "loyalty points",
+        # Generic credit-card phrasing – treat as broad rewards/card intent
+        "credit card",
+        "credit cards",
+        "sbi card",
+        "sbi cards",
+        "card",
     ],
 }
 

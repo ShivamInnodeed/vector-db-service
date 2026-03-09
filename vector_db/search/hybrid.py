@@ -67,6 +67,8 @@ def _merge_and_combine(
                 score=final_score,
                 text=base.text,
                 metadata=base.metadata,
+                knn_score=nk,
+                bm25_score=nb,
             )
         )
         if logger.isEnabledFor(logging.DEBUG):
